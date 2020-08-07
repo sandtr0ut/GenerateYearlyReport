@@ -1,12 +1,39 @@
 {
+  "name": "UiPath_REFrameWork",
   "description": "UiPath REFramework Template",
-  "version": "2016.2.6274.33252",
   "main": "Main.xaml",
-  "id": "UiPath_REFrameWork",
-  "dependencies": {},
-  "configurationOptions": {},
-  "excludedData": [
-    "Private:*",
-    "*password*"
-  ]
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Excel.Activities": "[2.9.0-preview]",
+    "UiPath.Mail.Activities": "[1.9.0-preview]",
+    "UiPath.System.Activities": "[20.6.1-preview]",
+    "UiPath.UIAutomation.Activities": "[20.6.0-preview]",
+    "UiPath.WebAPI.Activities": "[1.4.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.6.0.0",
+  "projectVersion": "1.0.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "expressionLanguage": "VisualBasic"
 }
