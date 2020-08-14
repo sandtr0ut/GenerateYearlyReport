@@ -14,5 +14,6 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgExtended_Wpf_Toolkit Condition=" '$(PkgExtended_Wpf_Toolkit)' == '' ">C:\Users\Ford\.nuget\packages\extended.wpf.toolkit\2.8.0</PkgExtended_Wpf_Toolkit>
+    <PkgMicrosoft_Activities_Extensions Condition=" '$(PkgMicrosoft_Activities_Extensions)' == '' ">C:\Users\Ford\.nuget\packages\microsoft.activities.extensions\2.0.6.9</PkgMicrosoft_Activities_Extensions>
   </PropertyGroup>
 </Project>

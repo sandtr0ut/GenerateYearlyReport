@@ -133,6 +133,19 @@
           "lib/Interop.Domino.dll": {}
         }
       },
+      "Microsoft.Activities.Extensions/2.0.6.9": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Activities"
+        ],
+        "compile": {
+          "lib/Net45/_._": {}
+        },
+        "runtime": {
+          "lib/Net45/Microsoft.Activities.Extensions.Design.dll": {},
+          "lib/Net45/Microsoft.Activities.Extensions.dll": {}
+        }
+      },
       "Microsoft.AspNet.SignalR.Client/2.4.0": {
         "type": "package",
         "dependencies": {
@@ -265,6 +278,15 @@
         },
         "runtime": {
           "lib/net40/System.IO.Abstractions.dll": {}
+        }
+      },
+      "System.Resources.ResourceManager/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
         }
       },
       "System.Threading.Tasks.Dataflow/4.10.0": {
@@ -1206,6 +1228,27 @@
         "lib/Interop.Domino.dll"
       ]
     },
+    "Microsoft.Activities.Extensions/2.0.6.9": {
+      "sha512": "yGwK3gYUzzGIzgybBtXsCbcWIj+Dv+gadnaWkmG0WpBs22AV8ZS7deFhAb2pznDoGz0Pj4M7Tt9RwK9VrNzf4A==",
+      "type": "package",
+      "path": "microsoft.activities.extensions/2.0.6.9",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        "help/Microsoft.Activities.Extensions Documentation.chm",
+        "lib/Net40/Microsoft.Activities.Extensions.Design.dll",
+        "lib/Net40/Microsoft.Activities.Extensions.dll",
+        "lib/Net401/Microsoft.Activities.Extensions.Design.dll",
+        "lib/Net401/Microsoft.Activities.Extensions.dll",
+        "lib/Net45/Microsoft.Activities.Extensions.Design.dll",
+        "lib/Net45/Microsoft.Activities.Extensions.dll",
+        "microsoft.activities.extensions.2.0.6.9.nupkg.sha512",
+        "microsoft.activities.extensions.nuspec",
+        "tools/Microsoft.Activities.Extensions.NuGet.dll",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "Microsoft.AspNet.SignalR.Client/2.4.0": {
       "sha512": "xGoQq9dEsBU49U1Whl0To2JyRQePmo8ayYS8VNruLlQaX+fQBzYyLJeMlW9r7mlt8Vc9JP+083m9pKrfYpdDbg==",
       "type": "package",
@@ -1430,6 +1473,63 @@
         "lib/netstandard2.0/System.IO.Abstractions.xml",
         "system.io.abstractions.3.0.10.nupkg.sha512",
         "system.io.abstractions.nuspec"
+      ]
+    },
+    "System.Resources.ResourceManager/4.3.0": {
+      "sha512": "/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
+      "type": "package",
+      "path": "system.resources.resourcemanager/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Resources.ResourceManager.dll",
+        "ref/netcore50/System.Resources.ResourceManager.xml",
+        "ref/netcore50/de/System.Resources.ResourceManager.xml",
+        "ref/netcore50/es/System.Resources.ResourceManager.xml",
+        "ref/netcore50/fr/System.Resources.ResourceManager.xml",
+        "ref/netcore50/it/System.Resources.ResourceManager.xml",
+        "ref/netcore50/ja/System.Resources.ResourceManager.xml",
+        "ref/netcore50/ko/System.Resources.ResourceManager.xml",
+        "ref/netcore50/ru/System.Resources.ResourceManager.xml",
+        "ref/netcore50/zh-hans/System.Resources.ResourceManager.xml",
+        "ref/netcore50/zh-hant/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/System.Resources.ResourceManager.dll",
+        "ref/netstandard1.0/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/de/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/es/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/fr/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/it/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/ja/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/ko/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/ru/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/zh-hans/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/zh-hant/System.Resources.ResourceManager.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.resources.resourcemanager.4.3.0.nupkg.sha512",
+        "system.resources.resourcemanager.nuspec"
       ]
     },
     "System.Threading.Tasks.Dataflow/4.10.0": {
@@ -2013,6 +2113,8 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "Microsoft.Activities.Extensions >= 2.0.6.9 <= 2.0.6.9",
+      "System.Resources.ResourceManager >= 4.3.0 <= 4.3.0",
       "UiPath.Credentials.Activities >= 1.1.6479.13204 <= 1.1.6479.13204",
       "UiPath.Excel.Activities >= 2.9.0-preview <= 2.9.0-preview",
       "UiPath.Mail.Activities >= 1.9.0-preview <= 1.9.0-preview",
@@ -2035,6 +2137,16 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "Microsoft.Activities.Extensions": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[2.0.6.9, 2.0.6.9]"
+          },
+          "System.Resources.ResourceManager": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[4.3.0, 4.3.0]"
+          },
           "UiPath.Credentials.Activities": {
             "include": "Runtime",
             "target": "Package",

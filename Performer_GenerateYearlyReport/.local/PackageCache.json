@@ -2,6 +2,17 @@
   "Packages": [
     {
       "Package": {
+        "Id": "UiPath.Credentials.Activities",
+        "Version": "1.1.6479.13204"
+      },
+      "Assemblies": [
+        "C:\\Users\\Ford\\.nuget\\packages\\credentialmanagement/1.0.2\\lib/net35/CredentialManagement.dll",
+        "C:\\Users\\Ford\\.nuget\\packages\\uipath.credentials.activities/1.1.6479.13204\\lib/net40-client/UiPath.Credentials.Activities.dll"
+      ],
+      "Path": "C:\\Users\\Ford\\.nuget\\packages\\uipath.credentials.activities\\1.1.6479.13204"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.9.0-preview"
       },
@@ -40,21 +51,6 @@
         "C:\\Users\\Ford\\.nuget\\packages\\uipath.mail.activities/1.9.0-preview\\lib/net461/UiPath.Mail.dll"
       ],
       "Path": "C:\\Users\\Ford\\.nuget\\packages\\uipath.mail.activities\\1.9.0-preview"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.WebAPI.Activities",
-        "Version": "1.4.5"
-      },
-      "Assemblies": [
-        "C:\\Users\\Ford\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\Ford\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\Ford\\.nuget\\packages\\restsharp/106.3.1\\lib/net452/RestSharp.dll",
-        "C:\\Users\\Ford\\.nuget\\packages\\uipath.webapi.activities/1.4.5\\lib/net452/UiPath.Web.Activities.Design.dll",
-        "C:\\Users\\Ford\\.nuget\\packages\\uipath.webapi.activities/1.4.5\\lib/net452/UiPath.Web.Activities.dll",
-        "C:\\Users\\Ford\\.nuget\\packages\\uipath.webapi.activities/1.4.5\\lib/net452/UiPath.Web.dll"
-      ],
-      "Path": "C:\\Users\\Ford\\.nuget\\packages\\uipath.webapi.activities\\1.4.5"
     },
     {
       "Package": {
@@ -133,14 +129,37 @@
     },
     {
       "Package": {
-        "Id": "UiPath.Credentials.Activities",
-        "Version": "1.1.6479.13204"
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.4.5"
       },
       "Assemblies": [
-        "C:\\Users\\Ford\\.nuget\\packages\\credentialmanagement/1.0.2\\lib/net35/CredentialManagement.dll",
-        "C:\\Users\\Ford\\.nuget\\packages\\uipath.credentials.activities/1.1.6479.13204\\lib/net40-client/UiPath.Credentials.Activities.dll"
+        "C:\\Users\\Ford\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\Ford\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Ford\\.nuget\\packages\\restsharp/106.3.1\\lib/net452/RestSharp.dll",
+        "C:\\Users\\Ford\\.nuget\\packages\\uipath.webapi.activities/1.4.5\\lib/net452/UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\Ford\\.nuget\\packages\\uipath.webapi.activities/1.4.5\\lib/net452/UiPath.Web.Activities.dll",
+        "C:\\Users\\Ford\\.nuget\\packages\\uipath.webapi.activities/1.4.5\\lib/net452/UiPath.Web.dll"
       ],
-      "Path": "C:\\Users\\Ford\\.nuget\\packages\\uipath.credentials.activities\\1.1.6479.13204"
+      "Path": "C:\\Users\\Ford\\.nuget\\packages\\uipath.webapi.activities\\1.4.5"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Activities.Extensions",
+        "Version": "2.0.6.9"
+      },
+      "Assemblies": [
+        "C:\\Users\\Ford\\.nuget\\packages\\microsoft.activities.extensions/2.0.6.9\\lib/Net45/Microsoft.Activities.Extensions.Design.dll",
+        "C:\\Users\\Ford\\.nuget\\packages\\microsoft.activities.extensions/2.0.6.9\\lib/Net45/Microsoft.Activities.Extensions.dll"
+      ],
+      "Path": "C:\\Users\\Ford\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9"
+    },
+    {
+      "Package": {
+        "Id": "System.Resources.ResourceManager",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [],
+      "Path": "C:\\Users\\Ford\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0"
     }
   ],
   "Conflicts": [],
@@ -193,6 +212,11 @@
     "interop.domino.dll": {
       "Id": "interop.domino.dll",
       "Version": "1.0.0",
+      "Dependencies": []
+    },
+    "Microsoft.Activities.Extensions": {
+      "Id": "Microsoft.Activities.Extensions",
+      "Version": "2.0.6.9",
       "Dependencies": []
     },
     "Microsoft.AspNet.SignalR.Client": {
@@ -258,6 +282,11 @@
     "System.IO.Abstractions": {
       "Id": "System.IO.Abstractions",
       "Version": "3.0.10",
+      "Dependencies": []
+    },
+    "System.Resources.ResourceManager": {
+      "Id": "System.Resources.ResourceManager",
+      "Version": "4.3.0",
       "Dependencies": []
     },
     "System.Threading.Tasks.Dataflow": {
@@ -581,6 +610,17 @@
     },
     {
       "Package": {
+        "Id": "Microsoft.Activities.Extensions",
+        "Version": "2.0.6.9"
+      },
+      "Assemblies": [
+        "C:\\Users\\Ford\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9\\lib\\Net45\\Microsoft.Activities.Extensions.Design.dll",
+        "C:\\Users\\Ford\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9\\lib\\Net45\\Microsoft.Activities.Extensions.dll"
+      ],
+      "Path": "C:\\Users\\Ford\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9"
+    },
+    {
+      "Package": {
         "Id": "Microsoft.AspNet.SignalR.Client",
         "Version": "2.4.0"
       },
@@ -682,6 +722,16 @@
         "C:\\Users\\Ford\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib\\net40\\System.IO.Abstractions.dll"
       ],
       "Path": "C:\\Users\\Ford\\.nuget\\packages\\system.io.abstractions\\3.0.10"
+    },
+    {
+      "Package": {
+        "Id": "System.Resources.ResourceManager",
+        "Version": "4.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Ford\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Ford\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0"
     },
     {
       "Package": {

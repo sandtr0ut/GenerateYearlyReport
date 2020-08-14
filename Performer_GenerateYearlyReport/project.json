@@ -3,6 +3,8 @@
   "description": "UiPath REFramework Template",
   "main": "Main.xaml",
   "dependencies": {
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
+    "System.Resources.ResourceManager": "[4.3.0]",
     "UiPath.Credentials.Activities": "[1.1.6479.13204]",
     "UiPath.Excel.Activities": "[2.9.0-preview]",
     "UiPath.Mail.Activities": "[1.9.0-preview]",
