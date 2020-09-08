@@ -6,11 +6,11 @@
     "Microsoft.Activities.Extensions": "[2.0.6.9]",
     "System.Resources.ResourceManager": "[4.3.0]",
     "UiPath.Credentials.Activities": "[1.1.6479.13204]",
-    "UiPath.Excel.Activities": "[2.9.0-preview]",
-    "UiPath.Mail.Activities": "[1.9.0-preview]",
-    "UiPath.System.Activities": "[20.6.1-preview]",
-    "UiPath.UIAutomation.Activities": "[20.6.0-preview]",
-    "UiPath.WebAPI.Activities": "[1.4.5]"
+    "UiPath.Excel.Activities": "[2.9.1-preview]",
+    "UiPath.Mail.Activities": "[1.9.1-preview]",
+    "UiPath.System.Activities": "[20.8.0-preview]",
+    "UiPath.UIAutomation.Activities": "[20.8.0-preview]",
+    "UiPath.WebAPI.Activities": "[1.5.0-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -37,5 +37,6 @@
     },
     "fileInfoCollection": []
   },
-  "expressionLanguage": "VisualBasic"
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false
 }

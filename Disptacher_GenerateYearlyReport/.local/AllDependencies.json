@@ -1838,9 +1838,9 @@
     "restore": {
       "projectUniqueName": "Dispatcher_GenerateYearlyReport",
       "projectName": "Dispatcher_GenerateYearlyReport",
-      "projectPath": "C:\\Users\\Ford\\Documents\\UIPath\\Generate Yearly Report\\Disptacher_GenerateYearlyReport\\.local",
+      "projectPath": "C:\\Users\\Ford\\Documents\\UIPath\\GenerateYearlyReport\\Disptacher_GenerateYearlyReport\\.local",
       "packagesPath": "C:\\Users\\Ford\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ford\\Documents\\UIPath\\Generate Yearly Report\\Disptacher_GenerateYearlyReport\\.local"
+      "outputPath": "C:\\Users\\Ford\\Documents\\UIPath\\GenerateYearlyReport\\Disptacher_GenerateYearlyReport\\.local"
     },
     "frameworks": {
       "net461": {

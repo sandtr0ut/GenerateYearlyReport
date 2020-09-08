@@ -53,5 +53,6 @@
   "UiPath.UIAutomationNext.Activities.KeyboardEvents.DelayBetweenShortcuts": "0.5",
   "UiPath.UIAutomationNext.Activities.KeyboardEvents.EmptyFieldMode": "SingleLine",
   "UiPath.UIAutomationNext.Activities.Logging.SearchLog": "False",
-  "UiPath.UIAutomationNext.Activities.Logging.SearchPerformanceLog": "False"
+  "UiPath.UIAutomationNext.Activities.Logging.SearchPerformanceLog": "False",
+  "UiPath.UIAutomationNext.Activities.SearchStepsWeb.InteractionMode": "Simulate"
 }
