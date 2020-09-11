@@ -8,7 +8,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1107,4016</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1107,3976</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>System1_CreateYearlyReport_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="31">
@@ -84,7 +84,7 @@
       <AssemblyReference>UiPath.CV.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Description:  Combines individual monthly reports into a single, aggregated yearly report, taking in arguments for TaxID, Year, and ReportsDownloadPath.  Provides path to newly-created yearly report by out-argument.&#xA;&#xA;Pre-Condition: Monthly Report Page open in the ACME System 1 application.&#xA;&#xA;Post Action: Upload yearly report" DisplayName="System1_CreateYearlyReport" sap:VirtualizedContainerService.HintSize="1117,3811" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Description:  Combines individual monthly reports into a single, aggregated yearly report, taking in arguments for TaxID, Year, and ReportsDownloadPath.  Provides path to newly-created yearly report by out-argument.&#xA;&#xA;Pre-Condition: Monthly Report Page open in the ACME System 1 application.&#xA;&#xA;Post Action: New yearly report will be uploaded in separate sequence to follow." DisplayName="System1_CreateYearlyReport" sap:VirtualizedContainerService.HintSize="1117,3811" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_YearlyReport" />
       <Variable x:TypeArguments="s:String[]" Name="Months" />

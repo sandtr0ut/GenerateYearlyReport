@@ -8,7 +8,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1138,2826</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1084,2786</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>System1_UploadYearlyReport_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="23">
@@ -59,7 +59,7 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Description:  Takes in arguments for TaxID and Year then selects yearly report to be uploaded using in_ReportPath argument.  Finally, retrieves confirmation message from javascript laert window, parses text, and passes out_UploadID argument to be used updating work item.&#xA;&#xA;Pre-condition:  Reports - Upload Yearly Report page be open&#xA;&#xA;Post Action: Update work item" DisplayName="System1_UploadYearlyReport" sap:VirtualizedContainerService.HintSize="476,2621" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Description:  Takes in arguments for TaxID and Year then selects yearly report to be uploaded using in_ReportPath argument.  Finally, retrieves confirmation message from javascript laert window, parses text, and passes out_UploadID argument to be used updating work item.&#xA;&#xA;Pre-condition:  Reports - Upload Yearly Report page be open&#xA;&#xA;Post Action: Update work item in separate sequence to follow" DisplayName="System1_UploadYearlyReport" sap:VirtualizedContainerService.HintSize="476,2621" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="confirmationID" />
     </Sequence.Variables>

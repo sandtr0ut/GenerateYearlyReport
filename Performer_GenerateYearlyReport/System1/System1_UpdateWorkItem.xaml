@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1084,1281</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1084,1271</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>System1_UpdateWorkItem_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -56,7 +56,7 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Updates WorkItem with comment from argument.&#xA;&#xA;Precondition:  Work Item Details page is open&#xA;Post-Action:  WI status is changed to complete" DisplayName="System1_UpdateWorkItem" sap:VirtualizedContainerService.HintSize="401,1076" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Description:  Updates WorkItem, adding yearly report upload ID in comment box with in_WIComment argument, and updates item status to value from in_Status argument.&#xA;&#xA;Precondition:  Work Item Details page is open&#xA;Post-Action:  WI status is changed to complete" DisplayName="System1_UpdateWorkItem" sap:VirtualizedContainerService.HintSize="401,1106" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
